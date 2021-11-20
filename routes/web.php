@@ -25,8 +25,8 @@ Route::prefix('/cv')->group(function () {
             'tg' => $request->get('tg'),
             'github' => $request->get('github'),
             'objective' => $request->get('objective'),
-            'hardSkills' => $request->get('hardSkills'),
-            'softSkills' => $request->get('softSkills'),
+            'hardSkills' => $request->get('hard-skills'),
+            'softSkills' => $request->get('soft-skills'),
             'education' => $request->get('education'),
             'ps' => $request->get('ps')
         ]);
